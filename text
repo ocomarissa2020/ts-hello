@@ -1,0 +1,66 @@
+// JS Primitive Types
+
+// let isPresent :boolean = false; //boolean
+// let magic:number = 66.6; //number
+// let hello:string = 'world'; //string
+// let notDefined:undefined = undefined; //undefined
+// let notPresent:null = null; //null
+// let penta:symbol = Symbol('star'); //symbols
+// let bigInt:bigint  = 24n; //big large numbers
+
+// // Classes
+// let regexp: RegExp = new RegExp('ab+c'); //regular expressions
+// let array: Array<number> = [1,2,3];
+// let set: Set<number> = new Set ([1,2,3]);
+// class Queue <T> {
+//     private data: Array <T> = [];
+//     push(item: T){this.data.push(item);}
+//     pop(): T | undefined {return this.data.shift();}
+// }
+// let queue: Queue<number> = new Queue();
+
+// //Array
+// let array: number[] = [1,2,3];
+// // Usage
+// array = [1,2,3];
+
+// //Tuple
+// let tuple: [number,number]= [0,0];
+// //Usage
+// tuple = [1,2];
+
+// type Alias
+
+// type Point = {x: number, y:number};
+
+// let center: Point ={
+//     x: 0,
+//     y: 0,
+// };
+// let unit: Point ={
+//     x: 0,
+//     y: 0,
+// };
+
+// type Point = {x: number, y: number};
+// const point : Point = {x:0, y:0};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
